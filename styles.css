@@ -116,11 +116,12 @@ header {
     img {
         position: static;
         max-width: 90%;
+        margin-top: 30px;
     }
 
     header {
 
-        display: none;
+        display: inline-block;
     }
 
     h1 {
@@ -146,6 +147,14 @@ header {
 
     img {
         width: 90%;
-            }
+    }
+
+    a {
+        font-size: 18px;
+        line-height: 41px;
+        color: #5D5D7D;
+        margin-right: 23px;
+        cursor: pointer;
+    }
 
 }
