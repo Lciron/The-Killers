@@ -53,8 +53,9 @@ button {
     width: 269px;
     height: 62px;
     background: #9499EA;
-    box-shadow: 0px 10px 24px rgba(148,-153,-234,-0.0979959);
-    cursor: pointer;;
+    box-shadow: 0px 10px 24px rgba(148, -153, -234, -0.0979959);
+    cursor: pointer;
+    ;
 
     font-size: 24px;
     line-height: 36px;
@@ -63,14 +64,14 @@ button {
 }
 
 button:hover {
-   opacity: 0.8; 
+    opacity: 0.8;
 }
 
-button:active{
+button:active {
     opacity: 0.5;
 }
 
-a{
+a {
     font-size: 28px;
     line-height: 41px;
     color: #5D5D7D;
@@ -78,19 +79,73 @@ a{
     cursor: pointer;
 }
 
-a:nth-child(2){
+a:nth-child(2) {
     opacity: 0.4;
 }
 
-a:active{
+a:active {
     opacity: 0.8;
 
 }
 
-a:hover{
+a:hover {
     opacity: 0.4;
 }
 
-header{
+header {
     margin: 24px 0 0 57px;
+}
+
+@media screen and (max-width: 900px) {
+
+    .container-left {
+        width: 100%;
+        height: 50%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .container-right {
+        display: block;
+        height: auto;
+        width: 100%;
+        position: static;
+        padding: 40px;
+    }
+
+    img {
+        position: static;
+        max-width: 90%;
+    }
+
+    header {
+
+        display: none;
+    }
+
+    h1 {
+        font-size: 36px;
+        line-height: 52px;
+        width: auto;
+        margin: 58px 50px 0 50px;
+        text-align: center;
+    }
+
+    p {
+        margin: 15px 40px;
+        width: auto;
+    }
+
+    button {
+        margin: 15px 40px;
+        display: block;
+        margin-top: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    img {
+        width: 90%;
+            }
+
 }
